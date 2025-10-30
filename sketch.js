@@ -1,9 +1,9 @@
 let people = [];
 let immunitySlider;
 let population = 200;
-let infectionRadius = 10;
+let infectionRadius = 30;
 let infectionChance = 0.2;
-let recoveryTime = 300; // frames (~10s)
+let recoveryTime = 500; // frames (~10s)
 let immunityRate = 0.3; // 30%
 
 function setup() {
