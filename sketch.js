@@ -1,10 +1,10 @@
 let people = [];
 let immunitySlider;
 let population = 200;
-let infectionRadius = 30;
-let infectionChance = 0.2;
+let infectionRadius = 80;
+let infectionChance = 0.7;
 let recoveryTime = 500; // frames (~10s)
-let immunityRate = 0.3; // 30%
+let immunityRate = 0.01; // 30%
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
